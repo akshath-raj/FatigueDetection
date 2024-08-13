@@ -1,0 +1,110 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {
+        "tag":"time-table",
+        "patterns":[
+            "Tell me my timetable",
+            "Tell me what should i do",
+            "Am i free today",
+            "timetable",
+            "give me my timetable",
+            "time table"
+        ],
+        "responses":[
+            "The Timetable for today is:\n9:00 AM - 10:00 AM: Science\n10:00 AM - 10:15 AM: Break\n10:15 AM - 11:15 AM: Maths \n11:15 AM - 11:30 AM: Break\n11:30 AM - 12:30 PM: Social Studies (SST)\n12:30 PM - 1:30 PM: Lunch Break\n1:30 PM - 2:30 PM: English\n2:30 PM - 2:45 PM: Break\n2:45 PM - 3:45 PM: Revision\n3:45 PM - 4:00 PM: Break\n4:00 PM - 5:00 PM: Free Study or Extracurricular",
+            "The Timetable for today is:\n8:00 - 8:45: Science\n8:45 - 9:00: Break\n9:00 - 10:00: Maths\n10:00 - 10:15: Break\n10:15 - 11:00: SST\n11:00 - 11:15: Break\n11:15 - 12:15: English\n12:15 - 1:15: Lunch Break\n1:15 - 2:00: Free Study\n2:00 - 2:15: Break"
+        ]
+      },
+      {
+        "tag":"changes",
+        "patterns":[
+            "I am busy today from 9:00 to 10",
+            "busy from 9am to 10am",
+            "cant do work from 9am to 10am"
+        ],
+        "responses":[
+            "Okay here is the update timetable:\n8:00 - 8:45: Science\n8:45 - 9:00: Break\n9:00 - 10:00: Free Time\n10:00 - 10:15: Break\n10:15 - 11:00:SST\n11:00 - 11:15: Break\n11:15 - 12:15: English\n12:15 - 1:15: Lunch Break\n1:15 - 2:00: Maths\n2:00 - 2:15: Break"
+        ]
+      }
+    ]
+  }
